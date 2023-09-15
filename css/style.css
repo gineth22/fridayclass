@@ -1,0 +1,40 @@
+
+/* tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* SELECTOR UNIVERSAL */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* selector de etiqueta */
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+}
+/* selector por id */
+#word_one{
+    font-size: 30px;
+    color: rgb(3, 58, 3);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#list_options{
+border: 1px solid blue;
+margin: 10px;
+border-radius: 10px;
+}
+/* selector por clase */
+.word_group{
+    background-color: rgb(105, 192, 166);
+    color: rgb(57, 153, 236);
+    margin: 10px;
+}
+/* selector por atributo */
+[disabled] {
+    background-color: aliceblue;
+}
+/* pseudoclass */
+.word_group:hover{
+    background-color: bisque;
+    padding: 5px;
+}
