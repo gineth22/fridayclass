@@ -38,3 +38,56 @@ border-radius: 10px;
     background-color: bisque;
     padding: 5px;
 }
+#title_box{
+    color: blue;
+    font-family:'roboto',sans-serif;
+    background-color: blanchedalmond;
+    margin: 0 0 10px 0;
+    text-align: right;
+    text-transform: lowercase;
+    word-spacing: 25px0;
+    letter-spacing:10 px ;
+    /* padding:20px; */
+    padding: 0 20px 0 0;
+    border: 2px double salmon ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px saddlebrown;
+    -webkit-box-shadow: -2px 7px 125px -1px rgba(231, 222, 91, 0.75);
+    -moz-box-shadow: -2px 7px 125px -1px rgba(174, 221, 97, 0.75);
+    box-shadow: -2px 7px 125px -1px rgba(165, 216, 71, 0.75);
+    font-size: 30px;
+}
+    #box_father{
+        background-color: black;
+        width: 50%;
+        height: 200px;
+        background-image: url(https://lavioletera.com.mx/cdn/shop/articles/ROSAS_ROJAS_3x-100_1024x1024.jpg?v=1538000763);
+        background-position: center;
+        background-size: cover;
+    }
+
+
+
+@media(min-width: 880px) and (max-width: 1200px) {
+    body{
+        background-color: aquamarine;
+
+    }
+    h1{
+        text-align: right;
+    }
+    a{
+        color: cornflowerblue;
+        font-size: 50px;
+        padding: 20px;
+    }
+   
+}
+@media (max-width: 799px){
+    body{
+            background-image: url(https://lavioletera.com.mx/cdn/shop/articles/ROSAS_ROJAS_3x-100_1024x1024.jpg?v=1538000763);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
